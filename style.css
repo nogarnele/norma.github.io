@@ -56,11 +56,25 @@ padding-left: 50px;
 padding-right: 50px;
 }
 
-
+/*
 .portfolio {
   height: auto;
   float: left;
 
+}*/
+
+.portfolio {
+  height: auto;
+  float: left;
+  -webkit-filter: grayscale(100%);
+	filter: grayscale(100%);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+
+.portfolio:hover {
+	-webkit-filter: grayscale(0);
+	filter: grayscale(0);
 }
 
 .clear {
