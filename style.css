@@ -28,6 +28,11 @@ nav li {
   margin-right: 40px;
 }
 
+.textoben {
+  position: relative;
+  width: 100%;
+}
+
 h1 {
   font-size: 100px;
   line-height: 60px;
@@ -38,7 +43,7 @@ h2 {
 
 }
 h3 {
-  font-size: 20px;
+  font-size: 30px;
 }
 p {
 font: 15px;
@@ -120,10 +125,6 @@ padding-right: 50px;
 
 }
 
-.textoben {
-  position: relative;
-  width: 100%;
-}
 
 .vertical {
   position: absolute;
