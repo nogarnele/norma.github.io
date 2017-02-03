@@ -32,6 +32,11 @@ nav li {
   position: relative;
   width: 100%;
 }
+.textoben2 {
+  position: relative;
+  width: 100%;
+  text-decoration: #ffffff;
+}
 
 h1 {
   font-size: 100px;
