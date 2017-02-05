@@ -90,6 +90,10 @@ padding-right: 50px;
 	filter: grayscale(0);
 }
 
+a[href^="#top"]:before {
+  display: inline-block;
+}
+
 .clear {
   clear: both;
 }
