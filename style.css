@@ -14,7 +14,7 @@ padding-top: 30px;
 padding-bottom: 10px;
 text-align: center;
 }
-
+/*Navigation*/
 nav {
   text-align: center;
 }
@@ -27,6 +27,8 @@ nav li {
   display: inline;
   margin-right: 40px;
 }
+
+/*Text auf Headerbild*/
 
 .textoben {
   position: relative;
@@ -64,17 +66,12 @@ a {
   text-align: center;
 }
 
+/*Unterseite - Portfolio*/
+
 .galerie {
 padding-left: 50px;
 padding-right: 50px;
 }
-
-/*
-.portfolio {
-  height: auto;
-  float: left;
-
-}*/
 
 .portfolio {
   height: auto;
@@ -90,26 +87,16 @@ padding-right: 50px;
 	filter: grayscale(0);
 }
 
-a[href^="#top"]:before {
-  display: inline-block;
-}
-
-.clear {
-  clear: both;
-}
-
-.aboutme {
-  font-size: 15px;
-  font-kerning: 3px;
-  max-width: 700px;
-  margin-left: auto;
-  margin-right: auto;
-}
-
 .portfolio img {
   padding: 5px;
   border:1px solid #ffffff;
   margin: 10px;
+}
+
+/*Link nach oben*/
+
+a[href^="#top"]:before {
+  display: inline-block;
 }
 
 .image {
@@ -121,11 +108,36 @@ a[href^="#top"]:before {
 }
 
 
+.clear {
+  clear: both;
+}
+/*Unterseite About*/
+.aboutme {
+  font-size: 15px;
+  font-kerning: 3px;
+  max-width: 700px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 .kreise {
     width: 500px;
     margin-left: auto;
     margin-right: auto;
 }
+
+.ichbins {
+  display: block;
+    margin-left: auto;
+    margin-right: auto }
+}
+
+.kreise {
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 
 .box {
   width: 33.33%;
@@ -133,7 +145,6 @@ a[href^="#top"]:before {
   padding: 10px;
 
 }
-
 
 .vertical {
   position: absolute;
@@ -143,6 +154,8 @@ a[href^="#top"]:before {
   right: 20%;
   z-index: 2;
 }
+
+/*Footer*/
 
 footer {
    height: 50px;
