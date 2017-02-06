@@ -1,3 +1,7 @@
+* {
+  box-sizing: border-box;
+}
+
 body {
   font-family: 'Roboto Slab', serif;
   background-color: #F3f3f3;
@@ -8,10 +12,9 @@ body {
 header {
 padding-top: 30px;
 padding-bottom: 10px;
-height: 50px;
 text-align: center;
 }
-
+/*Navigation*/
 nav {
   text-align: center;
 }
@@ -25,6 +28,18 @@ nav li {
   margin-right: 40px;
 }
 
+/*Text auf Headerbild*/
+
+.textoben {
+  position: relative;
+  width: 100%;
+}
+.textoben2 {
+  position: relative;
+  width: 100%;
+  text-decoration: #ffffff;
+}
+
 h1 {
   font-size: 100px;
   line-height: 60px;
@@ -35,7 +50,7 @@ h2 {
 
 }
 h3 {
-  font-size: 20px;
+  font-size: 30px;
 }
 p {
 font: 15px;
@@ -51,26 +66,38 @@ a {
   text-align: center;
 }
 
+/*Unterseite - Portfolio*/
+
 .galerie {
 padding-left: 50px;
 padding-right: 50px;
 }
 
-
 .portfolio {
   height: auto;
   float: left;
-
+  -webkit-filter: grayscale(100%);
+	filter: grayscale(100%);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
 }
 
-.clear {
-  clear: both;
+.portfolio:hover {
+	-webkit-filter: grayscale(0);
+	filter: grayscale(0);
+  -webkit-filter:
 }
 
 .portfolio img {
   padding: 5px;
   border:1px solid #ffffff;
   margin: 10px;
+}
+
+/*Link nach oben*/
+
+a[href^="#top"]:before {
+  display: inline-block;
 }
 
 .image {
@@ -81,9 +108,43 @@ padding-right: 50px;
   position: relative;
 }
 
-.textoben {
-  position: relative;
-  width: 100%;
+
+.clear {
+  clear: both;
+}
+/*Unterseite About*/
+.aboutme {
+  font-size: 15px;
+  font-kerning: 3px;
+  max-width: 700px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.kreise {
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.ichbins {
+  display: block;
+    margin-left: auto;
+    margin-right: auto }
+}
+
+.kreise {
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.box {
+  width: 33.33%;
+  float: left;
+  padding: 10px;
+
 }
 
 .vertical {
@@ -95,10 +156,12 @@ padding-right: 50px;
   z-index: 2;
 }
 
+/*Footer*/
+
 footer {
    height: 50px;
    clear:both;
-   background: #ffffff;
+   background: #F3f3f3;
    font-size: 10px;
    font-kerning: 1px;
    font-variant-position: sub;
