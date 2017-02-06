@@ -85,6 +85,7 @@ padding-right: 50px;
 .portfolio:hover {
 	-webkit-filter: grayscale(0);
 	filter: grayscale(0);
+  -webkit-filter:
 }
 
 .portfolio img {
